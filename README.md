@@ -1,10 +1,19 @@
-# Pint extra definitions
-This repository contains a files with the extra units definition need to run the pint unit parser (https://pint.readthedocs.io) on our system.
-The definitions can be loaded in a piece of python code the following way:
+# MSL Pint
+This repository contains a the pint unit registery (https://pint.readthedocs.io)
+with additional units defined.
+Additionnal units can be added in a straightforward manner by editing the python file pint_msl/unit_registery.py
+
+Installation (from):
+ ```
+pip3 install -r path_to_root_of_repo/requirements.txt
+pip3 install -e path_to_root_of_repo
 
 ```
-import pint.UnitRegistery
 
-ureg = UnitRegistery
-ureg.load_defintitions('/path/pint_extra_definitions.txt')
+Loading the registry:
+
+```
+from pint_msl.unit_registery import MSLUnitRegistery
+
+ureg = MSLUnitRegistery()
 ```
