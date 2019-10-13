@@ -6,3 +6,4 @@ class MSLUnitRegistry(UnitRegistry):
         self.define('percent = 0.01 * count = pct')
         self.define('perthousand = 0.001 * count = ptshd')
         self.define('utc = count')
+        seff.define('okta = 0.125 * count')
