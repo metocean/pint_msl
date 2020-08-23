@@ -15,5 +15,13 @@ if __name__ == '__main__':
           author_email='ops@metocean.co.nz',
           url='https://github.com/metocean/pint_msl',
           install_requires=['pint >= 0.8'],
+          # package_dir={''},
           packages=find_packages(),
-          )
+          classifiers=[
+            'Programming Language :: Python :: 2.7',
+            'Programming Language :: Python :: 3.5',
+            'Programming Language :: Python :: 3.6',
+            'Programming Language :: Python :: 3.7',
+            'Programming Language :: Python :: 3.8',
+          ],
+    )
