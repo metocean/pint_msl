@@ -15,4 +15,5 @@ if __name__ == '__main__':
           author_email='ops@metocean.co.nz',
           url='https://github.com/metocean/pint_msl',
           install_requires=['pint >= 0.8'],
+          packages=find_packages(),
           )
