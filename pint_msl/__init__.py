@@ -1,1 +1,1 @@
-# Pint registery with extra definitions
+# Pint registry with extra definitions
