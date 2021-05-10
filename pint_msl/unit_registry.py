@@ -7,3 +7,5 @@ class MSLUnitRegistry(UnitRegistry):
         self.define('perthousand = 0.001 * count = ptshd')
         self.define('utc = count')
         self.define('okta = 0.125 * count')
+        self.define('degree_east = degree')
+        self.define('degree_north = degree')
