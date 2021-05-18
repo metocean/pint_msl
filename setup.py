@@ -9,7 +9,7 @@ def read(fname):
 
 if __name__ == '__main__':
     setup(name='pint_msl',
-          version='0.2',
+          version='1.3',
           description='Pint unit registry with extra definitions',
           author='MetOcean Solutions',
           author_email='ops@metocean.co.nz',
