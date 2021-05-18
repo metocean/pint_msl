@@ -1,7 +1,7 @@
 # MSL Pint
-This repository contains a the pint unit registry (https://pint.readthedocs.io)
-with additional units defined.
-Additional units can be added in a straightforward manner by editing the python file pint_msl/unit_registry.py
+This package provides a [Pint](https://pint.readthedocs.io/) unit registry 
+with a few additional units defined that we regularly use at MetOcean Solutions.
+Units can be added in a straightforward manner by adding define() calls to [./pint_msl/unit_registry.py](./pint_msl/unit_registry.py).
 
 Installation (from):
  ```
