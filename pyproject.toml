@@ -1,5 +1,16 @@
+[project]
+name = "pint-msl"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13,<4.0"
+readme = "README.md"
+license = "LICENSE.txt"
+dependencies = ["pint>=0.8"]
 [build-system]
 # These are the assumed default build requirements from pip:
 # https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
 requires = ["setuptools>=40.8.0", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[tool.uv]
+package = false
