@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13,<4.0"
 readme = "README.md"
-license = "LICENSE.txt"
+license = "Apache-2.0 OR BSD-2-Clause"
 dependencies = ["pint>=0.8"]
 [build-system]
 # These are the assumed default build requirements from pip:
