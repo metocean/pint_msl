@@ -1,5 +1,26 @@
+[project]
+name = "pint-msl"
+version = "1.4"
+description = "Pint unit registry with additional units used at MetOcean Solutions"
+requires-python = ">=3.11,<4.0"
+readme = "README.md"
+license = "Apache-2.0 OR BSD-2-Clause"
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+dependencies = [
+    "pint>=0.8",
+]
+
+[project.urls]
+Homepage = "https://github.com/metocean/pint_msl"
+Repository = "https://github.com/metocean/pint_msl"
+
 [build-system]
-# These are the assumed default build requirements from pip:
-# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
-requires = ["setuptools>=40.8.0", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = [
+    "uv_build >= 0.12.10,<0.14"
+]
+build-backend = "uv_build"
